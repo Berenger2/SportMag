@@ -21,6 +21,7 @@ export default function MyProfil() {
             <div className="col-md-6 mt-4">
               <h5>Informations :</h5>
               <div className="mt-4">
+                
                 <div className="d-flex align-items-center">
                   <i
                     data-feather="mail"

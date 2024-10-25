@@ -27,7 +27,7 @@ export default function ProfilHeader() {
                     <div className="col-lg-10 col-md-9">
                       <div className="row align-items-end">
                         <div className="col-md-7 text-md-start text-center mt-4 mt-sm-0">
-                          <h3 className="title mb-0">{user?.nom || "Nom "} {user?.prenom || "Prénom"}</h3>
+                          <h3 className="title mb-0">{user?.name || "Utilisateur "} </h3>
                           <small className="text-muted h6 me-2">{user?.role || "Rôle"}</small>
                         </div>
                         <div className="col-md-5 text-md-end text-center">

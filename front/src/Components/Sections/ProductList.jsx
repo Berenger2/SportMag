@@ -156,8 +156,6 @@ export default function ProductList() {
                 <thead>
                   <tr>
                     <th scope="col" className="border-bottom text-center">Produit</th>
-                    <th scope="col" className="border-bottom text-center">Prix</th>
-                    <th scope="col" className="border-bottom text-center">Stock</th>
                     <th scope="col" className="border-bottom text-center">Catégorie</th>
                     <th scope="col" className="border-bottom text-center">Action</th>
                   </tr>
@@ -166,8 +164,6 @@ export default function ProductList() {
                   {products.map((product) => (
                     <tr key={product._id}>
                       <td>{product.product}</td>
-                      <td>{product.price} €</td>
-                      <td>{product.stock}</td>
                       <td>{product.category?.category || "N/A"}</td>
                       <td className="text-justify">
                         <Button

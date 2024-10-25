@@ -12,14 +12,15 @@ const HomeHeader = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="3000">
-            <div className="bg-home slider-rtl-2 d-flex align-items-center" style={{ background: "url('assets/images/shop/bg2.jpg') center center" }}>
+            <div className="bg-home slider-rtl-2 d-flex align-items-center" style={{ background: "url('assets/images/shop/1.jpg') center center" }}>
               <div className="bg-overlay bg-overlay-white opacity-5"></div>
               <div className="container">
                 <div className="row align-items-center mt-5">
                   <div className="col-lg-7 col-md-7">
                     <div className="title-heading mt-4">
-                      <h1 className="display-4 fw-bold mb-3 text-black">New Accessories <br /> Collections</h1>
-                      <p className="para-desc text-black">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                    <h1 className="display-4 fw-bold mb-3 text-black">Explorez Notre Nouvelle Collection d'Accessoires Sportifs</h1>
+<p className="para-desc text-black">Profitez de notre expertise pour découvrir les meilleures options de location d'équipements sportifs et lancez vos aventures avec style.</p>
+
                       <div className="mt-4">
                         <a href="javascript:void(0)" className="btn btn-soft-primary">Shop Now</a>
                       </div>
@@ -30,43 +31,6 @@ const HomeHeader = () => {
             </div>
           </div>
 
-          <div className="carousel-item" data-bs-interval="3000">
-            <div className="bg-home slider-rtl-1 d-flex align-items-center" style={{ background: "url('assets/images/shop/bg1.jpg') center center" }}>
-              <div className="bg-overlay bg-overlay-white opacity-5"></div>
-              <div className="container">
-                <div className="row align-items-center mt-5">
-                  <div className="col-lg-7 col-md-7">
-                    <div className="title-heading mt-4">
-                      <h1 className="display-4 fw-bold mb-3 text-black">Headphones <br /> Speaker</h1>
-                      <p className="para-desc text-black">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
-                      <div className="mt-4">
-                        <a href="javascript:void(0)" className="btn btn-soft-primary">Shop Now</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="carousel-item" data-bs-interval="3000">
-            <div className="bg-home slider-rtl-3 d-flex align-items-center" style={{ background: "url('assets/images/shop/bg3.jpg') center center" }}>
-              <div className="bg-overlay bg-overlay-white opacity-5"></div>
-              <div className="container">
-                <div className="row align-items-center mt-5">
-                  <div className="col-lg-7 col-md-7">
-                    <div className="title-heading mt-4">
-                      <h1 className="display-4 fw-bold mb-3 text-black">Modern Furniture, <br /> Armchair</h1>
-                      <p className="para-desc text-black">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
-                      <div className="mt-4">
-                        <a href="javascript:void(0)" className="btn btn-soft-primary">Shop Now</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

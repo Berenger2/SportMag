@@ -53,11 +53,9 @@ export default function UserList() {
                 <thead>
                   <tr>
                     <th scope="col" className="border-bottom text-center">
-                      Nom
+                      Utilisateur
                     </th>
-                    <th scope="col" className="border-bottom text-center">
-                      Prénom
-                    </th>
+                    
                     <th scope="col" className="border-bottom text-center">
                       Email
                     </th>
@@ -72,8 +70,7 @@ export default function UserList() {
                 <tbody>
                   {users.map((user) => (
                     <tr key={user.id}>
-                      <td>{user.nom}</td>
-                      <td>{user.prenom}</td>
+                      <td>{user.name}</td>
                       <td>{user.email}</td>
                       <td>{user.role}</td>
                       <td className="text-justify">
@@ -101,10 +98,8 @@ export default function UserList() {
         <Modal.Body>
           {selectedUser ? (
             <div>
-              <p><strong>Nom:</strong> {selectedUser.nom}</p>
-              <p><strong>Prénom:</strong> {selectedUser.prenom}</p>
+              <p><strong>Utilisateur:</strong> {selectedUser.name}</p>
               <p><strong>Email:</strong> {selectedUser.email}</p>
-              <p><strong>Numéro de téléphone:</strong> {selectedUser.telephone}</p>
               <p><strong>Rôle:</strong> {selectedUser.role}</p>
             </div>
           ) : (

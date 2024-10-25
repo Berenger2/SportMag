@@ -1,5 +1,5 @@
 import React from 'react'
-import UserStatisticsChart from './UserStatisticsChart'
+import StatisticsChart from './StatisticsChart'
 import MyKpi from './MyKpi'
 
 export default function MyDashboard() {
@@ -7,7 +7,7 @@ export default function MyDashboard() {
     <>
     <div className="col-lg-8 col-12">
             <MyKpi/>
-          <UserStatisticsChart/>
+          <StatisticsChart/>
 
     </div>
         

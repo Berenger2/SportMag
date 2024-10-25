@@ -15,16 +15,17 @@ export default function Cta() {
                 <div className="col-12">
                   <div className="section-title">
                     <h2 className="fw-bold text-black mb-4">
-                      End of Season Clearance <br /> Sale upto 30%
+                      Offres Spéciales de Fin de Saison <br /> Location jusqu'à
+                      30%
                     </h2>
                     <p className="para-desc text-black mb-0">
-                      Launch your campaign and benefit from our expertise on
-                      designing and managing conversion centered bootstrap v5
-                      html page.
+                      Profitez de nos offres exceptionnelles sur la location
+                      d'équipements sportifs. Réservez maintenant et
+                      préparez-vous à vivre des aventures inoubliables !
                     </p>
                     <div className="mt-4">
-                      <Link to="/shop" className="btn btn-primary">
-                        Shop Now
+                      <Link to="/location" className="btn btn-primary">
+                        Louez Maintenant
                       </Link>
                     </div>
                   </div>

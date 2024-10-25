@@ -49,7 +49,17 @@ export default function ProfilNav() {
                   <h6 className="mb-0 ms-2">Mes Categories</h6>
                 </Link>
               </li>
-
+              <li className="navbar-item account-menu px-0 mt-2">
+                  <Link
+                    to="/userlist"
+                    className="navbar-link d-flex rounded shadow align-items-center py-2 px-4"
+                  >
+                    <span className="h4 mb-0">
+                      <i className="uil uil-users-alt"></i>
+                    </span>
+                    <h6 className="mb-0 ms-2">Liste des utilisateurs</h6>
+                  </Link>
+                </li>
              
 
               <li className="navbar-item account-menu px-0 mt-2">

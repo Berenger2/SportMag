@@ -20,7 +20,7 @@ export default function Team() {
                 <div className="card-body p-0">
                   <div className="position-relative">
                     <img
-                      src="https://media.licdn.com/dms/image/D4E03AQHiE4YoNZxkIw/profile-displayphoto-shrink_400_400/0/1703530091184?e=1727913600&v=beta&t=cmlTEu-606WUnEOC3mQgMpihVHkgy2wCRsU3q8gGAmY"
+                      src="https://media.licdn.com/dms/image/v2/D4E03AQHiE4YoNZxkIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1703530091184?e=1735171200&v=beta&t=ETnJYTPTWGhVjRTPfUpmzcN4S-RQahKEExKjq3oGRPw"
                       className="img-fluid avatar avatar-ex-large rounded-circle shadow"
                       alt=""
                     />
@@ -50,7 +50,7 @@ export default function Team() {
                 <div className="card-body p-0">
                   <div className="position-relative">
                     <img
-                      src="https://media.licdn.com/dms/image/D4E35AQGncuXZKwpmBg/profile-framedphoto-shrink_400_400/0/1691588950223?e=1723014000&v=beta&t=UoBrpJH79WJyY60IkdPHjyEhKnMwaCU0JBunodAgScY"
+                      src="https://media.licdn.com/dms/image/v2/D4E35AQGncuXZKwpmBg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1691588950223?e=1730458800&v=beta&t=uNQrh0CWnJ4jO9JHR0wpQv9api7RfWAelefb7my1M2g"
                       className="img-fluid avatar avatar-ex-large rounded-circle shadow"
                       alt=""
                     />
